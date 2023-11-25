@@ -61,4 +61,3 @@ class IndexView(TemplateView):
         context['total_cursos'] = Curso.objects.count()
         return context
 
-
